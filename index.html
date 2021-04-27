@@ -24,14 +24,14 @@
 		<!-- Styles -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&subset=latin-ext" rel="stylesheet">
-		<link href="../css/bootstrap.css" rel="stylesheet">
-		<link href="../css/fontawesome-all.css" rel="stylesheet">
-		<link href="../css/swiper.css" rel="stylesheet">
-		<link href="../css/magnific-popup.css" rel="stylesheet">
-		<link href="../css/styles.css" rel="stylesheet">
+		<link href="./static/css/bootstrap.css" rel="stylesheet">
+		<link href="./static/css/fontawesome-all.css" rel="stylesheet">
+		<link href="./static/css/swiper.css" rel="stylesheet">
+		<link href="./static/css/magnific-popup.css" rel="stylesheet">
+		<link href="./static/css/styles.css" rel="stylesheet">
 
 		<!-- Favicon  -->
-		<link rel="icon" href="../images/favicon.png">
+		<link rel="icon" href="./static/images/favicon.png">
 	</head>
 	<body data-spy="scroll" data-target=".fixed-top">
 
@@ -53,7 +53,7 @@
 
 			<!-- Image Logo -->
 			<a class="navbar-brand logo-image" href="https://ebrains.eu/" target="_blank">
-				<img id="eb-logo" class="" src="../images/logos/ebrains_logos_yellow_green-white.png" alt="alternative">
+				<img id="eb-logo" class="" src="./static/images/logos/ebrains_logos_yellow_green_white.png" alt="alternative">
 			</a>
 
 			<!-- Mobile Menu Toggle Button -->
@@ -70,7 +70,7 @@
 			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link page-scroll" href="index.html">HOME 
+						<a class="nav-link page-scroll" href="./index.html">HOME 
 							<span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
@@ -86,7 +86,7 @@
                             aria-haspopup="true" aria-expanded="false" title="Online Use Cases" alt="Online Use Cases">
                             ONLINE USE CASES</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="online-use-cases.html"><span class="item-text">EXPLORE ALL</span></a>
+                            <a class="dropdown-item" href="./online-use-cases.html"><span class="item-text">EXPLORE ALL</span></a>
                         </div>
                     </li>
                     <!-- end of dropdown menu online use cases -->
@@ -104,8 +104,6 @@
                         aria-haspopup="true" aria-expanded="false">MONITORS</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" target="_blank" href="https://bspmonitors.cineca.it/hpc-monitor/#"><span class="item-text">HPC MONITOR</span></a>
-                        <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" target="_blank" href="https://bspmonitors.cineca.it/bsp-monitor"><span class="item-text">CLSP MONITOR</span></a>
                     </div>
                 </li>
                 <!-- end of dropdown menu -->
@@ -137,7 +135,7 @@
 							<div class="text-container">
 								<p class="p-x-large">EBRAINS</p><!--<span id="js-rotating"></span></h1>-->
 								<p class="p-x-large">Cellular Level Simulation</p>
-								<h1>NEURON Workflows and Use Cases</h1>
+								<h1>Interactive Workflows and Use Cases</h1>
 								<br>
 								<br>
 								<p class="p-heading p-x-large"><span id="js-rotating">Build, Reconstruct, Simulate</span>
@@ -186,7 +184,7 @@
 					<div class="col-lg-7 vertical-center" style="display: flex;align-items: center;">
 						<div class="image-container">
 							<div class="row">
-								<img class="center-block img-fluid" src="../images/small_img2_2.jpeg" alt="alternative">
+								<img class="center-block img-fluid" src="./static/images/small_img2_2.jpeg" alt="alternative">
 							</div>
 						</div> <!-- end of image-container -->
 					</div> <!-- end of col -->
@@ -255,7 +253,7 @@
 				<div class="row">
 					<div class="col-lg-5 col-xl-6 vertical-center">
 						<div class="image-container">
-							<img class="img-fluid center-block" src="../images/OUCs.png" alt="alternative">
+							<img class="img-fluid center-block" src="./static/images/OUCs.png" alt="alternative">
 						</div> <!-- end of image-container -->
 					</div> <!-- end of col -->
 					<div class="col-lg-7 col-xl-6">
@@ -288,22 +286,22 @@
 							<!-- Counter -->
 							<div id="counter">
 								<div class="cell">
-									<div class="counter-value number-count" data-count="43">1</div>
+									<div class="counter-value number-count" data-count="9">1</div>
 									<div class="counter-info">Use<br>Cases</div>
 								</div>
 								<div class="cell">
-									<div class="counter-value number-count" data-count="31">1</div>
+									<div class="counter-value number-count" data-count="2">1</div>
 									<div class="counter-info">Jupyter<br>Notebooks</div>
 								</div>
 								<div class="cell">
-									<div class="counter-value number-count" data-count="12">1</div>
+									<div class="counter-value number-count" data-count="7">1</div>
 									<div class="counter-info">Web<br>Applications</div>
 								</div>
 							</div>
 
 							<div class="text-container center-btn-cont">    
 								<a class="text-center btn-solid-reg page-scroll" 
-								   href="online-use-cases.html">EXPLORE</a>
+								   href="./online-use-cases.html">EXPLORE</a>
 							</div> <!-- end of button-container -->
 							<!-- end of counter -->
 
@@ -324,17 +322,10 @@
 						<div class="text-container">
 							<div class="section-title">MONITORS</div>
 							<h2>
-								Visualize Cellular Level Simulation Tools usage
-                                and HPC systems available resources
+								Visualize HPC systems available resources
 							</h2>
 							<p>
 							<ul>
-								<li>
-                                The Cellular Level Simulation Tools monitor
-                                displays a real-time and historical overview of 
-                                the number of instantiated Use Cases (UCs), 
-                                pageviews, visitors and users; 
-								</li>
 								<li>
                                 The HPC Status Monitor allows a real-time check 
                                 of the availability status of the HPC systems 
@@ -348,18 +339,9 @@
 					</div> <!-- end of col -->
 					<div class="col-lg-3 vertical-center" style="display: flex;align-items: center;">
 						<div class="image-container">
-							<div class="row" style="z-index:1">
-                                <a target="_blank" href="https://bspmonitors.cineca.it/bsp-monitor">
-								<img class="center-block img-fluid" style="z-index:3" src="../images/monitor_cls.svg" alt="alternative">
-                                </a>
-							</div>
-						</div> <!-- end of image-container -->
-					</div> <!-- end of col -->
-					<div class="col-lg-3 vertical-center" style="display: flex;align-items: center;">
-						<div class="image-container">
 							<div class="row">
                                 <a target="_blank" href="https://bspmonitors.cineca.it/hpc-monitor/#">
-								<img class="center-block img-fluid" src="../images/monitor_hpc.svg" alt="alternative">
+								<img class="center-block img-fluid" src="./static/images/monitor_hpc.svg" alt="alternative">
                                 </a>
 							</div>
 						</div> <!-- end of image-container -->
@@ -403,7 +385,7 @@
 									<div class="swiper-slide">
 										<div class="card">
 											<img class="" 
-												 src="../images/live-papers/amsalem_2020.svg" 
+												 src="./static/images/live-papers/amsalem_2020.svg" 
 												 alt="alternative">
 											<div class="card-body">
 												<div class="testimonial-text">
@@ -421,7 +403,7 @@
 									<!-- Slide -->
 									<div class="swiper-slide">
 										<div class="card">
-											<img class="" src="../images/live-papers/giacopelli_2020.svg" 
+											<img class="" src="./static/images/live-papers/giacopelli_2020.svg" 
 														  alt="alternative">
 											<div class="card-body">
 												<div class="testimonial-text">
@@ -439,7 +421,7 @@
 									<!-- Slide -->
 									<div class="swiper-slide">
 										<div class="card">
-											<img class="" src="../images/live-papers/hjorth_2020.svg" alt="alternative">
+											<img class="" src="./static/images/live-papers/hjorth_2020.svg" alt="alternative">
 											<div class="card-body">
 												<div class="testimonial-text">
 													The microcircuits of 
@@ -456,7 +438,7 @@
 									<!-- Slide -->
 									<div class="swiper-slide">
 										<div class="card">
-											<img class="" src="../images/live-papers/lupascu_2020.svg" 
+											<img class="" src="./static/images/live-papers/lupascu_2020.svg" 
 														  alt="alternative">
 											<div class="card-body">
 												<div class="testimonial-text">
@@ -480,7 +462,7 @@
 									<!-- Slide -->
 									<div class="swiper-slide">
 										<div class="card">
-											<img class="" src="../images/live-papers/mccauley_2020.svg" 
+											<img class="" src="./static/images/live-papers/mccauley_2020.svg" 
 														  alt="alternative">
 											<div class="card-body">
 												<div class="testimonial-text">
@@ -500,7 +482,7 @@
 									<!-- Slide -->
 									<div class="swiper-slide">
 										<div class="card">
-											<img class="" src="../images/live-papers/masoli_2020.svg" alt="alternative">
+											<img class="" src="./static/images/live-papers/masoli_2020.svg" alt="alternative">
 											<div class="card-body">
 												<div class="testimonial-text">
 													Parameter tuning 
@@ -596,7 +578,7 @@
 						<div class="team-member">
 							<a href="https://www.cnr.it" target="_blank" data-toggle="tooltip" data-placement="top" title="CONSIGLIO NAZIONALE DELLE RICERCHE">
 								<div class="image-wrapper">
-									<img class="img-fluid" src="../images/logos/CNR.svg" alt="alternative">
+									<img class="img-fluid" src="./static/images/logos/CNR.svg" alt="alternative">
 								</div><!-- end of image-wrapper -->
 							</a>
 							<!--
@@ -608,7 +590,7 @@
 						<div class="team-member">
 							<a href="https://www.kth.se/" target="_blank" data-toggle="tooltip" data-placement="top" title="KUNGLIGA TEKNISKA HÖGSKOLAN">
 								<div class="image-wrapper">
-									<img class="img-fluid" src="../images/logos/KTH.svg" alt="alternative">
+									<img class="img-fluid" src="./static/images/logos/KTH.svg" alt="alternative">
 								</div><!-- end of image-wrapper -->
 							</a>
 							<!--
@@ -620,7 +602,7 @@
 						<div class="team-member">
 							<a href="https://www.epfl.ch/en/" target="_blank" data-toggle="tooltip" data-placement="top" title="ÉCOLE POLYTECHNIQUE FÉDÉRALE DE LAUSANNE">
 								<div class="image-wrapper">
-									<img class="img-fluid" src="../images/logos/EPFL.svg" alt="alternative">
+									<img class="img-fluid" src="./static/images/logos/EPFL.svg" alt="alternative">
 								</div><!-- end of image-wrapper -->
 							</a>
 							<!--
@@ -632,7 +614,7 @@
 						<div class="team-member">
 							<a href="https://web.unipv.it/" target="_blank" data-toggle="tooltip" data-placement="top" title="UNIVERSITÀ DEGLI STUDI DI PAVIA">
 								<div class="image-wrapper">
-									<img class="img-fluid" src="../images/logos/UNIPV.svg" alt="alternative">
+									<img class="img-fluid" src="./static/images/logos/UNIPV.svg" alt="alternative">
 								</div><!-- end of image-wrapper -->
 							</a>
 							<!--
@@ -644,7 +626,7 @@
 						<div class="team-member">
 							<a href="https://www.fz-juelich.de/portal/EN/Home/home_node.html" target="_blank" data-toggle="tooltip" data-placement="top" title="J&#220LICH FORSCHUNGSZENTRUM">
 								<div class="image-wrapper">
-									<img class="img-fluid" src="../images/logos/JUELICH.svg" alt="alternative">
+									<img class="img-fluid" src="./static/images/logos/JUELICH.svg" alt="alternative">
 								</div><!-- end of image-wrapper -->
 							</a>
 							<!--
@@ -656,7 +638,7 @@
 						<div class="team-member">
 							<a href="https://ethz.ch/en.html" target="_blank" data-toggle="tooltip" data-placement="top" title="ETH Z&#252rich">
 								<div class="image-wrapper">
-									<img class="img-fluid" src="../images/logos/ETHZ.svg" alt="alternative">
+									<img class="img-fluid" src="./static/images/logos/ETHZ.svg" alt="alternative">
 								</div> <!-- end of image-wrapper -->
 							</a>
 							<!--
@@ -755,15 +737,15 @@
 
 
 		<!-- Scripts -->
-		<script src="../js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-		<script src="../js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
-		<script src="../js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-		<script src="../js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-		<script src="../js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-		<script src="../js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-		<script src="../js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
-		<script src="../js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
-		<script src="../js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
-		<script src="../js/scripts.js"></script> <!-- Custom scripts -->
+		<script src="./static/js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+		<script src="./static/js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+		<script src="./static/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+		<script src="./static/js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+		<script src="./static/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+		<script src="./static/js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+		<script src="./static/js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+		<script src="./static/js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
+		<script src="./static/js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+		<script src="./static/js/scripts.js"></script> <!-- Custom scripts -->
 	</body>
 </html>
