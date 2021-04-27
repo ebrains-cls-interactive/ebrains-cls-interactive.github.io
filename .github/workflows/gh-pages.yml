@@ -50,10 +50,10 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: wizard-cls
-          path: src/wizard
+          path: static/wizard
 
       - name: Deploy gh-pages
         uses: JamesIves/github-pages-deploy-action@4.0.0
         with:
           branch: gh-pages
-          folder: src
+          folder: .
