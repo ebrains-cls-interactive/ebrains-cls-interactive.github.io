@@ -21,15 +21,15 @@ jobs:
 
       - name: Run tests
         run: |
-          echo "Branch ${{ github.event.inputs.wizard_branch }}" 
+          echo "Branch ${{ github.event.inputs.wizard_branch }}"
           npm install
           npm run validate
           npm run test
 
       - name: Build for CLS
         run: |
-          BASE_URL="/wizard" \
-          CALLBACK_URL="/html/online-use-cases.html" \
+          BASE_URL="/static/wizard" \
+          CALLBACK_URL="/online-use-cases.html" \
           npm run build
           cp public/service-worker.js public/build
 
@@ -50,10 +50,10 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: wizard-cls
-          path: src/wizard
+          path: static/wizard
 
       - name: Deploy gh-pages
         uses: JamesIves/github-pages-deploy-action@4.0.0
         with:
           branch: gh-pages
-          folder: src
+          folder: .
