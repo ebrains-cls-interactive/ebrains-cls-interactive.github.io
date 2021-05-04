@@ -183,7 +183,15 @@
                             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
                             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/svelte-material-ui@4.0.0/bare.min.css">
                             <script defer src='./static/wizard/bundle.js'></script>
-
+                            <script>
+                                if ('serviceWorker' in navigator) {
+                                    window.addEventListener('load', () => {
+                                    navigator.serviceWorker.register('./static/wizard/service-worker.js')
+                                        .then(reg => console.log('Service worker registered!'))
+                                        .catch(e => console.error(e));
+                                    });
+                                }
+                            </script>
                             <div id="onlineUsecasesAppContainer"></div>
                         </div>
                     </div>
