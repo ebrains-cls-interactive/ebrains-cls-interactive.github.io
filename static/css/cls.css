@@ -13,3 +13,9 @@
 .uc-icons{
     width:200px;
 }
+
+.wizard-frame {
+    width: 100%;
+    min-height: 85vh;
+    border: 0px;
+}

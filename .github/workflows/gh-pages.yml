@@ -2,55 +2,13 @@ name: Deploy to Github Pages
 
 on:
   push:
-  workflow_dispatch:
-    inputs:
-      wizard_branch:
-        description: 'Ebrain-Wizard branch'
-        required: true
-        default: 'main'
 
 jobs:
-  build-wizard:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2.3.4
-        with:
-          repository: antonelepfl/ebrains-wizard
-          ref: ${{ github.event.inputs.wizard_branch }}
-
-      - name: Run tests
-        run: |
-          echo "Branch ${{ github.event.inputs.wizard_branch }}"
-          npm install
-          npm run validate
-          npm run test
-
-      - name: Build for CLS
-        run: |
-          BASE_URL="/static/wizard" \
-          CALLBACK_URL="/online-use-cases.html" \
-          npm run build
-          cp public/service-worker.js public/build
-
-      - uses: actions/upload-artifact@v2
-        with:
-          name: wizard-cls
-          path: public/build/*
-
-
-  integrate-wizard:
-    needs: build-wizard
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2.3.4
-
-      - name: Fetch artifacts
-        uses: actions/download-artifact@v2
-        with:
-          name: wizard-cls
-          path: static/wizard
 
       - name: Deploy gh-pages
         uses: JamesIves/github-pages-deploy-action@4.0.0
