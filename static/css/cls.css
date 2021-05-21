@@ -1,0 +1,15 @@
+.cls-up-title {
+    color: white;
+}
+
+.uc-panel{
+    margin:10px;   
+    border: 1px solid;
+    border-color: #BBBBBB;
+    padding: 8px;
+    box-shadow: 5px 10px 8px #AAAAAA;
+}
+
+.uc-icons{
+    width:200px;
+}
