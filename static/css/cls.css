@@ -14,11 +14,11 @@
     width:200px;
 }
 
-.wizard-container {
-    width: 80vw;
-    margin: 0 auto;
+.use-cases .container {
+    width: 80%;
+    max-width: 80%;
 }
-.wizard-frame {
+.use-cases .wizard-frame {
     width: 100%;
     min-height: 85vh;
     border: 0px;
