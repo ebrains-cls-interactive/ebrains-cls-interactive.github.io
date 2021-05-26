@@ -13,3 +13,8 @@
 .uc-icons{
     width:200px;
 }
+
+.use-cases .container {
+    width: 80%;
+    max-width: 80%;
+}
