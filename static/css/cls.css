@@ -13,13 +13,3 @@
 .uc-icons{
     width:200px;
 }
-
-.use-cases .container {
-    width: 80%;
-    max-width: 80%;
-}
-.use-cases .wizard-frame {
-    width: 100%;
-    min-height: 85vh;
-    border: 0px;
-}
