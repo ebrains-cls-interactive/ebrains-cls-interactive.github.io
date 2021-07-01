@@ -33,7 +33,7 @@
         <!-- Favicon  -->
         <link rel="icon" href="./static/images/favicon.png">
     </head>
-    <body data-spy="scroll" data-target=".fixed-top" class="use-cases">
+    <body data-spy="scroll" data-target=".fixed-top">
 
         <!-- Preloader -->
         <div class="spinner-wrapper">
@@ -154,7 +154,7 @@
                             <a href="https://collab.humanbrainproject.eu/#/collab/1655/nav/28538" target="_blank">
                             Brain Simulation Platform</a>, which is part of the
                             HBP Collaboratory v1 environment that will
-                            be **shut down in September 2021**.
+                            be **shut down on 1 September 2021**.
                             <br>
                             <br>
                             <b>On this <a target="_blank" href="https://drive.ebrains.eu/d/e736ecb9115d4b4584c4/files/?p=/UseCaseMapping.xlsx">page</a>
@@ -203,10 +203,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="breadcrumbs">
-                            <a href="./index.html">Home</a><i class="fa fa-angle-double-right"></i><span>Workflows and Use Cases</span>
-                            <a href="https://bluebrain.github.io/bsp-usecase-wizard/dev/index.html" style="float: right;">
-                                <i class="fa fa-external-link-alt"></i>
-                            </a>
+                            <a href="./index.html">Home</a><i class="fa fa-angle-double-right"></i><span>Online Use Cases</span>
+
                         </div> <!-- end of breadcrumbs -->
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
@@ -215,21 +213,26 @@
         <!-- end of breadcrumbs -->
 
 
-        <!-- Wizard -->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-container">
-                        <!-- this assets will be generated on build before pushing to gh-pages -->
-                        <link rel='stylesheet' href='./static/wizard/style_bundle.css'>
-                        <link rel='stylesheet' href='./static/wizard/global.css'>
+        <div class="ex-basic-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-container">
+                            <h3>Online Use Cases</h3>
+                            <!--Accordion wrapper-->
+                            <!--
+                                <p><a target="_blank" href="https://lab.ebrains.eu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Flbologna%2Fsynaptic_platicity&urlpath=lab%2Ftree%2Fsynaptic_platicity%2FSynaptic+plasticity.ipynb&branch=master"><img class="center-block img-fluid" src="../images/synaptic_plasticity.png"></a></p>
+                            -->
+                            <link rel='stylesheet' href='./static/wizard/global.css'>
+                            <link rel='stylesheet' href='./static//wizard/style_bundle.css'>
 
-                        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700">
-                        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700">
-                        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
-                        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/svelte-material-ui@4.0.0/bare.min.css">
-                        <script defer src='./static/wizard/bundle.js'></script>
-                        <div id="onlineUsecasesAppContainer"></div>
+                            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700">
+                            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700">
+                            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+                            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/svelte-material-ui@4.0.0/bare.min.css">
+                            <script defer src='./static/wizard/bundle.js'></script>
+                            <div id="onlineUsecasesAppContainer"></div>
+                        </div>
                     </div>
                 </div>
             </div>
