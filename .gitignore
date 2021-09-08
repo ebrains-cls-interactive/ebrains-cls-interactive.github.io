@@ -1,2 +1,3 @@
 update_git_repo.sh
 *.swp
+.vs
