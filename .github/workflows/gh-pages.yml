@@ -30,6 +30,7 @@ jobs:
         run: |
           BASE_URL="/static/wizard" \
           CALLBACK_URL="/online-use-cases.html" \
+          USE_PROD_OFFSET='True' \
           npm run build
           cp public/service-worker.js public/build
 
