@@ -107,7 +107,7 @@
                         </div>
                     </li>
                     <!-- end of dropdown menu online use cases -->
-                    <li class="nav-item">
+                    <li class="nav-item" style="display:none">
                         <a class="nav-link page-scroll" href="#live-papers"
                                                         title="LIVE PAPERS" alt="LIVE PAPERS">
                             LIVE PAPERS
@@ -124,6 +124,7 @@
                         </div>
                     </li>
                     <!-- end of dropdown menu -->
+
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="#whoWeAre"
                                                         title ="TEAM" alt="TEAM">
@@ -362,13 +363,11 @@
                             </p>
                         </div> <!-- end of text-container -->
                     </div> <!-- end of col -->
-                    <div class="col-lg-3 vertical-center" style="display: flex;align-items: center;">
-                        <div class="image-container">
-                            <div class="row">
-                                <a target="_blank" href="https://bspmonitors.cineca.it/hpc-monitor/#">
-                                    <img class="center-block img-fluid" src="./static/images/monitor_hpc.svg" alt="alternative">
+                    <div class="col-lg-6 vertical-center" style="text-align: center">
+                        <div style="margin:auto" class="image-container">
+                                <a target="_blank" href="https://bspmonitors.cineca.it/hpc-monitor/">
+                                    <img style="width: 100% !important" class="" src="./static/images/monitor_hpc.svg" alt="alternative">
                                 </a>
-                            </div>
                         </div> <!-- end of image-container -->
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
@@ -379,7 +378,7 @@
         <hr style="width:100%;">
 
         <!-- Testimonials -->
-        <div id="live-papers" class="slider">
+        <div id="live-papers" class="slider" style="display: none">
             <div class="container">
                 <!--
                     <div style="text-align:right" class="text-container center-btn-cont">    
@@ -584,7 +583,12 @@
         </div> <!-- end of slider -->
         <!-- end of testimonials -->
 
-        <hr style="width:100%;">
+	
+
+
+
+
+        <hr style="width:100%; display:none">
 
         <!-- Team -->
         <div id="whoWeAre" class="basic-2">
