@@ -34,7 +34,7 @@ jobs:
           npm run build
           cp public/service-worker.js public/build
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v4
         with:
           name: wizard-cls
           path: public/build/*
