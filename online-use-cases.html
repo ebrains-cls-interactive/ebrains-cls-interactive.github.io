@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Aria is a business focused HTML landing page template built with Bootstrap to help you create lead generation websites for companies and their services.">
+    <meta name="description"
+        content="Aria is a business focused HTML landing page template built with Bootstrap to help you create lead generation websites for companies and their services.">
     <meta name="author" content="Inovatik">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
@@ -21,8 +23,10 @@
     <title>Workflows and Use Cases</title>
 
     <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&subset=latin-ext"
+        rel="stylesheet">
     <link href="./static/css/bootstrap.css" rel="stylesheet">
     <link href="./static/css/fontawesome-all.css" rel="stylesheet">
     <link href="./static/css/swiper.css" rel="stylesheet">
@@ -47,140 +51,151 @@
             g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
         })();
     </script>
+    <style>
+    .list-group{
+        max-height: 150px;
+        margin-bottom: 10px;
+        overflow:auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    </style>
+
 </head>
-    <body data-spy="scroll" data-target=".fixed-top" class="use-cases">
 
-        <!-- Preloader -->
-        <div class="spinner-wrapper">
-            <div class="spinner">
-                <div class="bounce1"></div>
-                <div class="bounce2"></div>
-                <div class="bounce3"></div>
-            </div>
+<body data-spy="scroll" data-target=".fixed-top" class="use-cases">
+
+    <!-- Preloader -->
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
         </div>
-        <!-- end of preloader -->
+    </div>
+    <!-- end of preloader -->
 
 
-        <!-- Navbar -->
-        <nav id="main-navbar" class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
-            <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
+    <!-- Navbar -->
+    <nav id="main-navbar" class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
 
-            <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="https://ebrains.eu/" target="_blank">
-                <img id="eb-logo" class="" src="./static/images/logos/ebrains_logo_white.png" alt="alternative">
-            </a>
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="https://ebrains.eu/" target="_blank">
+            <img id="eb-logo" class="" src="./static/images/logos/ebrains_logo_white.png" alt="alternative">
+        </a>
 
-            <!-- Mobile Menu Toggle Button -->
-            <button id="navbar-toggler-btn" class="navbar-toggler" 
-                                            type="button" data-toggle="collapse" 
-                                                          data-target="#navbarsExampleDefault" 
-                                                          aria-controls="navbarsExampleDefault" aria-expanded="false" 
-                                                                                                aria-label="Toggle navigation">
-                <span class="navbar-toggler-awesome fas fa-bars"></span>
-                <span class="navbar-toggler-awesome fas fa-times"></span>
-            </button>
-            <!-- end of mobile menu toggle button -->
+        <!-- Mobile Menu Toggle Button -->
+        <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
 
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="./index.html">HOME 
-                            <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="./index.html#objectives"
-                                                        title="OBJECTIVES" alt="OBJECTIVES">
-                            OBJECTIVES
-                        </a>
-                    </li>
-                    <!-- Dropdown Menu Use Cases-->          
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle page-scroll" 
-                           href="index.html#ouc" id="navbarDropdown" role="button" 
-                                                           aria-haspopup="true" aria-expanded="false" title="Workflows and Use Cases" alt="Workflows and Use Cases">
-                            WORKFLOWS / USE CASES</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="online-use-cases.html"><span class="item-text">EXPLORE ALL</span></a>
-                            <br>
-                            <a class="dropdown-item" target="_blank" href="./docs/"><span class="item-text">GUIDEBOOK</span></a>
-                        </div>
-                    </li>
-                    <!-- end of dropdown menu online use cases -->
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="https://live-papers.brainsimulation.eu/"
-                                                        title="LIVE PAPERS" alt="LIVE PAPERS">
-                            LIVE PAPERS
-                        </a>
-                    </li>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="./index.html">HOME
+                        <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="./index.html#objectives" title="OBJECTIVES" alt="OBJECTIVES">
+                        OBJECTIVES
+                    </a>
+                </li>
+                <!-- Dropdown Menu Use Cases-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" href="index.html#ouc" id="navbarDropdown"
+                        role="button" aria-haspopup="true" aria-expanded="false" title="Workflows and Use Cases"
+                        alt="Workflows and Use Cases">
+                        WORKFLOWS / USE CASES</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="online-use-cases.html"><span class="item-text">EXPLORE
+                                ALL</span></a>
+                        <br>
+                        <a class="dropdown-item" target="_blank" href="./docs/"><span
+                                class="item-text">GUIDEBOOK</span></a>
+                    </div>
+                </li>
+                <!-- end of dropdown menu online use cases -->
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="https://live-papers.brainsimulation.eu/" title="LIVE PAPERS"
+                        alt="LIVE PAPERS">
+                        LIVE PAPERS
+                    </a>
+                </li>
 
-                    <!-- Dropdown Menu -->          
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle page-scroll" 
-                           href="./index.html#monitors" id="navbarDropdown" role="button" 
-                                                                          aria-haspopup="true" aria-expanded="false">MONITORS</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" target="_blank" href="https://bspmonitors.cineca.it/hpc-monitor/#"><span class="item-text">HPC MONITOR</span></a>
-                        </div>
-                    </li>
-                    <!-- end of dropdown menu -->
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="./index.html#whoWeAre"
-                                                        title ="TEAM" alt="TEAM">
-                            TEAM
-                        </a>
-                    </li>
+                <!-- Dropdown Menu -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" href="./index.html#monitors" id="navbarDropdown"
+                        role="button" aria-haspopup="true" aria-expanded="false">MONITORS</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" target="_blank"
+                            href="https://bspmonitors.cineca.it/hpc-monitor/#"><span class="item-text">HPC
+                                MONITOR</span></a>
+                    </div>
+                </li>
+                <!-- end of dropdown menu -->
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="./index.html#whoWeAre" title="TEAM" alt="TEAM">
+                        TEAM
+                    </a>
+                </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="./index.html#contact"
-                                                        title="CONTACTS" alt="CONTACTS">
-                            CONTACTS
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav> <!-- end of navbar -->
-        <!-- end of navbar -->
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="./index.html#contact" title="CONTACTS" alt="CONTACTS">
+                        CONTACTS
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav> <!-- end of navbar -->
+    <!-- end of navbar -->
 
-        <!-- Header -->
-        <header id="header" class="ex-header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div><h4 class="cls-up-title">EBRAINS<br>Cellular Level Simulation</h4></div>
-                        <h1>Workflows and Use Cases</h1>
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </header> <!-- end of ex-header -->
-        <!-- end of header -->
+    <!-- Header -->
+    <header id="header" class="ex-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div>
+                        <h4 class="cls-up-title">EBRAINS<br>Cellular Level Simulation</h4>
+                    </div>
+                    <h1>Workflows and Use Cases</h1>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </header> <!-- end of ex-header -->
+    <!-- end of header -->
 
-        <div class="ex-basic-1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="breadcrumbs">
-                            <div>
+    <div class="ex-basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumbs">
+                        <div>
 
                             <div class="alert alert-info" role="alert">
-                            The tools and services provided on this
-                            platform inherit, extend and improve the Use Cases
-                            available on the former HBP Brain Simulation Platform (BSP).
-                            <br>
-                            <br>
-                            <b>For BSP users, in this <a target="_blank" href="https://drive.ebrains.eu/d/e736ecb9115d4b4584c4/files/?p=/UseCaseMapping.xlsx">page</a>
-                            you will find a lookup table where old and new urls
-                            are reported for each Use Case/Tool/Service.
-                            </b>
-                            <br>
+                                The tools and services provided on this
+                                platform inherit, extend and improve the Use Cases
+                                available on the former HBP Brain Simulation Platform (BSP).
+                                <br>
+                                <br>
+                                <b>For BSP users, in this <a target="_blank"
+                                        href="https://drive.ebrains.eu/d/e736ecb9115d4b4584c4/files/?p=/UseCaseMapping.xlsx">page</a>
+                                    you will find a lookup table where old and new urls
+                                    are reported for each Use Case/Tool/Service.
+                                </b>
+                                <br>
                             </div>
-                            The Cellullar Level Simulation Interactive 
+                            The Cellullar Level Simulation Interactive
                             Workflows and Use Cases guide the users through the
                             resolution of realistic scientific problems. They
-                            are implemented as either front-end or full stack 
-                            web applications or Python based Jupyter Notebooks 
-                            that allow to interactively build, 
-                            reconstruct or simulate data-driven brain models 
+                            are implemented as either front-end or full stack
+                            web applications or Python based Jupyter Notebooks
+                            that allow to interactively build,
+                            reconstruct or simulate data-driven brain models
                             and perform data analysis visualization. Web
                             applications are freely accessible and only require
                             authentication to EBRAINS when specific
@@ -189,29 +204,388 @@
                             cloned to the lab.ebrains.eu platform and requires
                             authentication via an EBRAINS account. If you do not
                             have an account yet, please
-                            <a href="https://ebrains.eu/register" href="_target">sign up</a> 
+                            <a href="https://ebrains.eu/register" href="_target">sign up</a>
                             (an institutional email address is required).
                             <br>
                             <br>
+                        </div>
+
+                    </div> <!-- end of breadcrumbs -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of ex-basic-1 -->
+
+
+    <!-- Breadcrumbs -->
+    <div class="ex-basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumbs">
+
+                        <div class="accordion" id="accordionExample">
+                            <!-- Trace Analysis start-->
+                            <div class="card">
+                                <div class="card-header" id="headingTraceAnalysis">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                            data-target="#collapseTraceAnalysis" aria-expanded="true"
+                                            aria-controls="collapseTraceAnalysis">
+                                            Trace Analysis
+                                        </button>
+                                    </h2>
+                                </div>
+
+                                <div id="collapseTraceAnalysis" class="collapse show"
+                                    aria-labelledby="headingTraceAnalysis" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <img width="200px"
+                                                    src="https://raw.githubusercontent.com/ebrains-cls-interactive/usecases-info/develop/images/traceanalysis/features.png">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h3>NeuroFeatureExtract <a href="https://hhnb.ebrains-italy.eu/efelg/"
+                                                        target="_blank"><i class="fa fa-external-link-alt"></i></a></h3>
+                                                <h5>Extracts electrophysiological features; traces can be from
+                                                    HBP/EBRAINS or uploaded</h5>
+                                                <i>Credits: Luca Leonardo Bologna (lucaleonardo.bologna@cnr.it); Roberto
+                                                    Smiriglia
+                                                    (roberto.smiriglia@ibf.cnr.it);
+                                                    Dario Curreri (dario.curreri@ibf.cnr.it)</i>
+
+                                            </div>
+                                            
+                                            <div class="col-lg-1">
+                                                <img width="40px" text="Implemented via a Web App"
+                                                
+                                                src="https://raw.githubusercontent.com/antonelepfl/usecases/dev/src/assets/images/web_uc.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                            <!-- Trace Analysis end -->
+                            <!-- Single Cell Modeling start-->
+                            <div class="card">
+                                <div class="card-header" id="headingSingleCellMod">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseSingleCellModeling" aria-expanded="false"
+                                            aria-controls="collapseSingleCellModeling">
+                                            Single Cell Modeling
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseSingleCellModeling" class="collapse"
+                                    aria-labelledby="headingSingleCellMod" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <img width="200px"
+                                                    src="https://raw.githubusercontent.com/ebrains-cls-interactive/usecases-info/develop/images/singlecellmodeling/hhnb.png">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h3>Hodgkin-Huxley Neuron Builder <a
+                                                        href="https://hhnb.ebrains-italy.eu/hh-neuron-builder/"
+                                                        target="_blank"><i class="fa fa-external-link-alt"></i></a></h3>
+                                                <p>Use the eFEL and BluePyOpt libraries to go through the entire neuron
+                                                    builder pipeline: 1) feature extraction, 2) model optimization, 3)
+                                                    simulation.</p>
+                                                <i>Credits: Luca Leonardo Bologna (lucaleonardo.bologna@cnr.it); Roberto
+                                                    Smiriglia
+                                                    (roberto.smiriglia@ibf.cnr.it)</i>
 
-                        </div> <!-- end of breadcrumbs -->
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of ex-basic-1 -->
+                                            </div>
+                                            <div class="col-lg-1">
+                                                <img width="40px" text="Implemented via a Web App"                                                
+                                                src="https://raw.githubusercontent.com/antonelepfl/usecases/dev/src/assets/images/web_uc.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Cell Modeling end-->
+                            <!-- Morphology start -->
+                            <div class="card">
+                                <div class="card-header" id="headingMorph">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseMorphology" aria-expanded="false"
+                                            aria-controls="collapseMorphology">
+                                            Morphology
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseMorphology" class="collapse" aria-labelledby="headingMorph"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <img width="200px"
+                                                    src="https://raw.githubusercontent.com/ebrains-cls-interactive/usecases-info/develop/images/morphology/morphology_3d.png">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h3>Morphology visualization </h3>
+                                                <p>Display neuron morphology in 3D</p>
+
+                                                    <ul  class="list-group">
+                                                        <a target="_blank" href="https://bluenaas-morph-viewer.apps.ebrains.eu/?model=https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/morphologies/011023HP2.asc">
+                                                            <li class="list-group-item-light">Rattus norvegicus > Hippocampus CA1 > interneuron > 
+                                                            CA1_int_cNAC_990611HP2_20190328165521</li></a>
+
+                                                        <a target="_blank" href="https://bluenaas-morph-viewer.apps.ebrains.eu/?model=https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_cNAC_990111HP2_20180118155424/CA1_int_cNAC_990111HP2_20180118155424/morphology/990111HP2.asc">
+                                                            <li class="list-group-item-dark">Rattus norvegicus > Hippocampus CA1 > interneuron > 
+                                                            CA1_int_cNAC_990111HP2_20190329155703</li></a>
+                                                        <a target="_blank" href="https://bluenaas-morph-viewer.apps.ebrains.eu/?model=https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_cAC_980513B_20180119155952/CA1_int_cAC_980513B_20180119155952/morphology/980513B.asc">
+                                                            <li class="list-group-item-light">Rattus norvegicus > Hippocampus CA1 > interneuron >
+                                                            CA1_int_cNAC_980513B_20190329155523
+                                                        </li></a>
+                                                        <a target="_blank" href="https://bluenaas-morph-viewer.apps.ebrains.eu/?model=https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_cNAC_980120A_20180119155115/CA1_int_cNAC_980120A_20180119155115/morphology/980120A.asc">
+                                                            <li class="list-group-item-dark">Rattus norvegicus > Hippocampus CA1 > interneuron > 
+                                                            CA1_int_cNAC_980120A_20190329155034
+                                                        </li></a>
+                                                        <a target="_blank" href="https://bluenaas-morph-viewer.apps.ebrains.eu/?model=https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_bAC_971114B_20180117154233/CA1_int_bAC_971114B_20180117154233/morphology/971114B.asc">
+                                                            <li class="list-group-item-light">Rattus norvegicus > Hippocampus CA1 > interneuron > 
+                                                                CA1_int_cNAC_971114B_20190329154607
+                                                        </li></a>
+                                                        <a target="_blank" href="https://bluenaas-morph-viewer.apps.ebrains.eu/?model=https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/morphologies/970911C.asc">
+                                                            <li class="list-group-item-dark">Rattus norvegicus > Hippocampus CA1 > interneuron > 
+                                                                CA1_int_cNAC_970911C_20190305120404
+                                                        </li></a>
+                                                        <a target="_blank" href="https://bluenaas-morph-viewer.apps.ebrains.eu/?model=https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_cNAC_970717D_20180118154811/CA1_int_cNAC_970717D_20180118154811/morphology/970717D.asc">
+                                                            <li class="list-group-item-light">Rattus norvegicus > Hippocampus CA1 > interneuron > 
+                                                                CA1_int_cNAC_970717D_20190307182510
+                                                        </li></a>
+                                                        <a target="_blank" href="https://bluenaas-morph-viewer.apps.ebrains.eu/?model=https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_cNAC_970627BHP1_20180120154830/CA1_int_cNAC_970627BHP1_20180120154830/morphology/970627BHP1.asc">
+                                                            <li class="list-group-item-dark">Rattus norvegicus > Hippocampus CA1 > interneuron > 
+                                                                CA1_int_cNAC_970627BHP1_20190306162834
+                                                        </li></a>
+                                                        <a target="_blank" href="https://bluenaas-morph-viewer.apps.ebrains.eu/?model=https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_cNAC_970509HP2_20180117154753/CA1_int_cNAC_970509HP2_20180117154753/morphology/970509HP2.asc">
+                                                            <li class="list-group-item-light">Rattus norvegicus > Hippocampus CA1 > interneuron > 
+                                                                CA1_int_cNAC_970509HP2_20190305115627
+                                                        </li></a>
+                                                      </ul>
 
 
-        <!-- Breadcrumbs -->
-        <div class="ex-basic-1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="breadcrumbs">
+                                                <i>Credits: Genrich Ivaska</i>
+
+                                            </div>
+                                            <div class="col-lg-1">
+                                                <img width="40px" text="Implemented via a Web App"                                                
+                                                src="https://raw.githubusercontent.com/antonelepfl/usecases/dev/src/assets/images/web_uc.png">
+                                            </div>
+                                        </div>
+
+                                        
+
+
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Morphology end -->
+
+                            <!-- Single Cell In Silico Exp start -->
+                            <div class="card">
+                                <div class="card-header" id="headingSingleInSilExp">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseSingleInSilExp" aria-expanded="false"
+                                            aria-controls="collapseSingleInSilExp">
+                                            Single Cell In Silico Experiment
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseSingleInSilExp" class="collapse"
+                                    aria-labelledby="headingSingleInSilExp" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <img width="200px"
+                                                    src="https://raw.githubusercontent.com/ebrains-cls-interactive/usecases-info/develop/images/singlecellinsilicoexperiments/l5pc_release_responses-eps.jpg">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h3>Single cell in silico experiments under current clamp</h3>
+
+                                                    <ul  class="list-group">
+                                                        <a target="_blank" href="https://bluenaas-single-cell.apps.ebrains.eu/#/url/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cNAC_990611HP2_20190328165521/CA1_int_cNAC_990611HP2_20190328165521.zip">
+                                                            <li class="list-group-item-light">Rattus norvegicus > Hippocampus CA1 > interneuron > 
+                                                            CA1_int_cNAC_990611HP2_20190328165521</li></a>
+
+                                                        <a target="_blank" href="https://bluenaas-single-cell.apps.ebrains.eu/#/url/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cNAC_990111HP2_20190329155703/CA1_int_cNAC_990111HP2_20190329155703.zip">
+                                                            <li class="list-group-item-dark">Rattus norvegicus > Hippocampus CA1 > interneuron > 
+                                                            CA1_int_cNAC_990111HP2_20190329155703</li></a>
+                                                        <a target="_blank" href="https://bluenaas-single-cell.apps.ebrains.eu/#/url/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cNAC_990111HP2_20190329155703/CA1_int_cNAC_990111HP2_20190329155703.zip">
+                                                            <li class="list-group-item-light">Rattus norvegicus > Hippocampus CA1 > interneuron >
+                                                            CA1_int_cNAC_980513B_20190329155523
+                                                        </li></a>
+                                                        <a target="_blank" href="https://bluenaas-single-cell.apps.ebrains.eu/#/url/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cNAC_980120A_20190329155034/CA1_int_cNAC_980120A_20190329155034.zip">
+                                                            <li class="list-group-item-dark">Rattus norvegicus > Hippocampus CA1 > interneuron > 
+                                                            CA1_int_cNAC_980120A_20190329155034
+                                                        </li></a>
+                                                        <a target="_blank" href="https://bluenaas-single-cell.apps.ebrains.eu/#/url/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cNAC_971114B_20190329154607/CA1_int_cNAC_971114B_20190329154607.zip">
+                                                            <li class="list-group-item-light">Rattus norvegicus > Hippocampus CA1 > interneuron > 
+                                                                CA1_int_cNAC_971114B_20190329154607
+                                                        </li></a>
+                                                        <a target="_blank" href="https://bluenaas-single-cell.apps.ebrains.eu/#/url/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cNAC_970911C_20190305120404/CA1_int_cNAC_970911C_20190305120404.zip">
+                                                            <li class="list-group-item-dark">Rattus norvegicus > Hippocampus CA1 > interneuron > 
+                                                                CA1_int_cNAC_970911C_20190305120404
+                                                        </li></a>
+                                                        <a target="_blank" href="https://bluenaas-single-cell.apps.ebrains.eu/#/url/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cNAC_970717D_20190307182510/CA1_int_cNAC_970717D_20190307182510.zip">
+                                                            <li class="list-group-item-light">Rattus norvegicus > Hippocampus CA1 > interneuron > 
+                                                                CA1_int_cNAC_970717D_20190307182510
+                                                        </li></a>
+                                                        <a target="_blank" href="https://bluenaas-single-cell.apps.ebrains.eu/#/url/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cNAC_970627BHP1_20190306162834/CA1_int_cNAC_970627BHP1_20190306162834.zip">
+                                                            <li class="list-group-item-dark">Rattus norvegicus > Hippocampus CA1 > interneuron > 
+                                                                CA1_int_cNAC_970627BHP1_20190306162834
+                                                        </li></a>
+                                                        <a target="_blank" href="https://bluenaas-single-cell.apps.ebrains.eu/#/url/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cNAC_970509HP2_20190305115627/CA1_int_cNAC_970509HP2_20190305115627.zip">
+                                                            <li class="list-group-item-light">Rattus norvegicus > Hippocampus CA1 > interneuron > 
+                                                                CA1_int_cNAC_970509HP2_20190305115627
+                                                        </li></a>
+                                                      </ul>
+
+
+                                                <i>Credits: Genrich Ivaska</i>
+
+                                            </div>
+                                            <div class="col-lg-1">
+                                                <img width="40px" text="Implemented via a Web App"                                                
+                                                src="https://raw.githubusercontent.com/antonelepfl/usecases/dev/src/assets/images/web_uc.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Cell In Silico Exp end -->
+
+
+                            <!-- Small Circuit In Silico Exp start -->
+                            <div class="card">
+                                <div class="card-header" id="headingSmallCircInSilExp">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseSmallCircInSilExp" aria-expanded="false"
+                                            aria-controls="collapseSmallCircInSilExp">
+                                            Small Circuit In Silico Experiment
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseSmallCircInSilExp" class="collapse"
+                                    aria-labelledby="headingSmallCircInSilExp" data-parent="#accordionExample">
+
+                                    <!-- Cortex -->
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <img width="200px"
+                                                    src="https://raw.githubusercontent.com/ebrains-cls-interactive/usecases-info/develop/images/smallcircuitinsilicoexperiments/mouse_o1.png">
+                                            </div>
+                                            <div class="col-8">
+                                                <h3>Mouse O1 - Scaffold Somatosensory Cortex Microcircuit for Mouse <a
+                                                        href="https://bluenaas-small-area.apps.ebrains.eu/circuits/mouse-sscx"
+                                                        target="_blank"><i class="fa fa-external-link-alt"></i></a></h3>
+                                                <p>This model combines specific datasets obtained for mouse
+                                                    somatosensory cortex, models of neuronal electrophysiology
+                                                    constrained to mouse primary visual cortex data from the Allen Cell
+                                                    Types Database, and datasets that were algorithmically transformed
+                                                    from rat to mouse.</p>
+                                                <i>Credits: Michael W. Reimann (michael.reimann@epfl.ch)Eilif Muller
+                                                    (eilif.mueller@epfl.ch)Srikanth Ramaswamy
+                                                    (srikanth.ramaswamy@epfl.ch)</i>
+
+                                            </div>
+                                            <div class="col-lg-1">
+                                                <img width="40px" text="Implemented via a Web App"
+                                                
+                                                src="https://raw.githubusercontent.com/antonelepfl/usecases/dev/src/assets/images/web_uc.png">
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <!-- Hippocampus -->
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <img width="200px"
+                                                    src="https://raw.githubusercontent.com/ebrains-cls-interactive/usecases-info/develop/images/smallcircuitinsilicoexperiments/rat-ca1-circuit.png">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h3>Rat hippocampus CA1 <a
+                                                        href="https://bluenaas-small-area.apps.ebrains.eu/circuits/rat-ca1"
+                                                        target="_blank"><i class="fa fa-external-link-alt"></i></a></h3>
+                                                <p>A circuit of detailed neuron models based on the Ascoli atlas.</p>
+                                                <i>Credits: Szabolcs Káli (kali@koki.hu); Audrey Mercer
+                                                    (a.mercer@ucl.ac.uk); Michele Migliore (michele.migliore@yale.edu);
+                                                    Armando Romani (armando.romani@epfl.ch); Eilif Muller
+                                                    (eilif.mueller@epfl.ch)</i>
+
+                                            </div>
+                                            <div class="col-lg-1">
+                                                <img width="40px" text="Implemented via a Web App"
+                                                
+                                                src="https://raw.githubusercontent.com/antonelepfl/usecases/dev/src/assets/images/web_uc.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <!-- M1 and CA3 -->
+
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <img width="200px"
+                                                    src="https://raw.githubusercontent.com/ebrains-cls-interactive/usecases-info/develop/images/smallcircuitinsilicoexperiments/M1_2_min.png">
+                                            </div>
+                                            <div class="col-8">
+                                                <h3>Multiscale brain circuit models of M1 and CA3 
+                                                <i title="Copy github url"
+                                                    onclick="navigator.clipboard.writeText('https://github.com/ebrains-cls-interactive/netpyne_tutorials.git')"
+                                                    class="fa fa-copy"></i>  <i class="fa fa-arrow-right"></i> <a href="https://lab.jsc.ebrains.eu/"
+                                                target="_blank"><i title="Open lab.ebrains.eu" class="fa fa-external-link-alt"></i></a></h3>
+
+
+                                                <p>Large-scale and biologically realistic models of rodent motor (M1)
+                                                    thalamocortical circuits and a model of CA3 microcircuits showing
+                                                    cross-frequency coupling. Models were developed using the NetPyNE
+                                                    multiscale modeling tool.</p>
+                                                <i>Credits: Salvador Dura-Bernal (salvador.dura-bernal@downstate.edu);
+                                                    Joe Graham (joe.w.graham@gmail.com); Eugenio Urdapilleta
+                                                    (urdapile@gmail.com); Joao Moreira
+                                                    (joao.moreira@downstate.edu)William Lytton
+                                                    (bill.lytton@downstate.edu)Samuel Neymotin
+                                                    (samuel.neymotin@nki.rfmh.org)</i>
+
+                                            </div>
+                                            <div class="col-lg-1">
+                                                <img width="40px"
+                                                
+                                                src="https://raw.githubusercontent.com/antonelepfl/usecases/dev/src/assets/images/ipynb_uc.png">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- Small Circuit In Silico Exp end -->
+
+
+
+
+                            <!--
                             <a href="./index.html">Home</a><i class="fa fa-angle-double-right"></i><span>Workflows and Use Cases</span>
                             <a href="https://lbologna.github.io/bsp-usecase-wizard/index.html" style="float: right;">
                                 <i class="fa fa-external-link-alt"></i>
                             </a>
+                            -->
+
                         </div> <!-- end of breadcrumbs -->
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
@@ -229,10 +603,14 @@
                         <link rel='stylesheet' href='./static/wizard/style_bundle.css'>
                         <link rel='stylesheet' href='./static/wizard/global.css'>
 
-                        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700">
-                        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700">
+                        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+                        <link rel="stylesheet"
+                            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700">
+                        <link rel="stylesheet"
+                            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700">
                         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
-                        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/svelte-material-ui@4.0.0/bare.min.css">
+                        <link rel="stylesheet"
+                            href="https://cdn.jsdelivr.net/npm/svelte-material-ui@4.0.0/bare.min.css">
                         <script defer src='./static/wizard/bundle.js'></script>
                         <div id="onlineUsecasesAppContainer"></div>
                     </div>
@@ -240,27 +618,20 @@
             </div>
         </div>
 
-        <div class="copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <p class="p-small"><a href="https://ebrains.eu"></a></p>
-                    </div> <!-- end of col -->
-                </div> <!-- enf of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of copyright --> 
-        <!-- end of copyright -->
 
         <!-- Scripts -->
         <script src="./static/js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
         <script src="./static/js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
         <script src="./static/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-        <script src="./static/js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+        <script src="./static/js/jquery.easing.min.js"></script>
+        <!-- jQuery Easing for smooth scrolling between anchors -->
         <script src="./static/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
         <script src="./static/js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
         <script src="./static/js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
         <script src="./static/js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
-        <script src="./static/js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+        <script src="./static/js/validator.min.js"></script>
+        <!-- Validator.js - Bootstrap plugin that validates forms -->
         <script src="./static/js/scripts.js"></script> <!-- Custom scripts -->
-    </body>
+</body>
+
 </html>
