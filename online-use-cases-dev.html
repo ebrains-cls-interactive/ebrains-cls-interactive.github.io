@@ -240,6 +240,18 @@
             </div>
         </div>
 
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="p-small"><a href="https://ebrains.eu"></a></p>
+                    </div> <!-- end of col -->
+                </div> <!-- enf of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of copyright --> 
+        <!-- end of copyright -->
+
+        <!--info Modal-->
         <div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -260,17 +272,6 @@
             </div>
         </div>
 
-        <div class="copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <p class="p-small"><a href="https://ebrains.eu"></a></p>
-                    </div> <!-- end of col -->
-                </div> <!-- enf of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of copyright --> 
-        <!-- end of copyright -->
-
         <!-- Scripts -->
         <script src="./static/js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
         <script src="./static/js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
@@ -282,5 +283,10 @@
         <script src="./static/js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
         <script src="./static/js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
         <script src="./static/js/scripts.js"></script> <!-- Custom scripts -->
+        <script>
+            $(document).ready(function () {
+              $('#infoModal').modal('show');
+            });
+        </script>
     </body>
 </html>
