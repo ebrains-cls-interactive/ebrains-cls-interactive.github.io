@@ -1,3 +1,4 @@
 update_git_repo.sh
 *.swp
 .vs
+static/images/uc_icons/.DS_Store
