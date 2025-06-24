@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.2.2
         with:
-          repository: lbologna/bsp-usecase-wizard
+          repository: ebrains-cls-interactive/bsp-usecase-wizard
           ref: ${{ github.event.inputs.wizard_branch }}
 
       - name: Run tests
